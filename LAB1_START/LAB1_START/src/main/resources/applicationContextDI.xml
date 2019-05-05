@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+ http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+ http://www.springframework.org/schema/context
+ http://www.springframework.org/schema/context/spring-context-4.0.xsd">
+
+    <context:property-placeholder location="classpath:application.properties"/>
+
+    <bean id="myMoviesSubscription"
+          class="com.apbdoo.lab1.MoviesSubscription">
+        <property name="discountCalculatorImpl" ref="myDiscountCalculator" />
+    </bean>
+    <bean id="myBooksSubscription"
+          class="com.apbdoo.lab1.BooksSubscription">
+        <constructor-arg name="discountCalculator" ref="myDiscountCalculator" />
+    </bean>
+    <bean id="mySportSubscription"
+          class="com.apbdoo.lab1.SportSubscription"
+          scope = "singleton"
+          init-method = "initSportSubscription"
+          destroy-method = "destroySportSubscription"
+    >
+    </bean>
+    <bean id="myDiscountCalculator"
+          class="com.apbdoo.lab1.DiscountCalculatorImpl">
+        <property name="percent" value="${discount.percent}"/>
+    </bean>
+</beans>

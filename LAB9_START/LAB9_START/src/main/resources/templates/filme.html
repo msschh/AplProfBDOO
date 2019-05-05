@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Home</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"
+          th:href="@{/webjars/bootstrap/3.3.7-1/css/bootstrap.min.css}">
+    <script src="/webjars/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous" th:src="@{/webjars/bootstrap/3.3.7-1/js/bootstrap.min.js}"></script>
+</head>
+<body>
+<h1>Filme</h1>
+
+<table class="table table-hover ">
+    <thead class="thead-inverse">
+    <tr>
+        <th>ID</th>
+        <th>Denumire</th>
+        <th>Info</th>
+        <th>Delete</th>
+    </tr>
+    </thead>
+    <tr th:remove="all">
+        <td>1</td>
+        <td>Film 1</td>
+        <td><a href="#">Info</a></td>
+        <td><a href="#">Delete</a></td>
+    </tr>
+    <tr th:remove="all">
+        <td>2</td>
+        <td>2</td>
+        <td><a href="#">Info</a></td>
+        <td><a href="#">Delete</a></td>
+    </tr>
+    <tr th:each="film : ${filme}">
+        <td th:text="${film.id}">1</td>
+        <td th:text="${film.titlu}">Film 1</td>
+        <td><a href="#" th:href="@{'/film/info/' + ${film.id}}">Info</a></td>
+        <td><a href="#" th:href="@{'/film/' + ${film.id} + '/delete'}">Delete</a></td>
+    </tr>
+</table>
+<a href="#" th:href="@{'/film/new'}">
+    <button class="btn btn-primary">New</button>
+</a>
+</body>
+</html>

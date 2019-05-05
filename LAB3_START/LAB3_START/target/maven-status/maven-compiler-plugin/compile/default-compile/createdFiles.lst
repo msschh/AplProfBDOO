@@ -1,0 +1,12 @@
+apbdoo\laboratorul3\domain\Categorie.class
+apbdoo\laboratorul3\controllers\IndexController.class
+apbdoo\laboratorul3\domain\Cast.class
+apbdoo\laboratorul3\GenerareFilme.class
+apbdoo\laboratorul3\services\FilmService.class
+apbdoo\laboratorul3\repositories\FilmRepository.class
+apbdoo\laboratorul3\services\FilmServiceImpl.class
+apbdoo\laboratorul3\repositories\CategorieRepository.class
+apbdoo\laboratorul3\domain\Film.class
+apbdoo\laboratorul3\domain\Info.class
+apbdoo\laboratorul3\domain\Audienta.class
+apbdoo\laboratorul3\Spring5JpaApplication.class

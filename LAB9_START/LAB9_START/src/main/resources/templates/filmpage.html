@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table border="1">
+    <thead>
+    <tr>
+        <th>titlu</th>
+        <th>minute</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="film, idx : ${filmPage.content}"
+        th:style="${idx.odd}? 'font-weight: bold;'"
+        th:alt-title="${idx.even}? 'even' : 'odd'">
+        <td th:text="${film.titlu}" />
+        <td th:text="${film.minute}" />
+    </tr>
+    </tbody>>
+</table>
+<div th:if="${filmPage.totalPages > 0}" class="pagination"
+     th:each="pageNumber : ${pageNumbers}">
+    <a th:href="@{/pagesfilme(size=${filmPage.size}, page=${pageNumber})}"
+       th:text=${pageNumber}
+       th:class="${pageNumber==filmPage.number + 1} ? active"></a>
+</div>
+</body>
+</html>

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: apbdoo.laboratorul6.Spring5JpaApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.871 s - in apbdoo.laboratorul6.Spring5JpaApplicationTests

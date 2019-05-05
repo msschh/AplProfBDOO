@@ -1,0 +1,10 @@
+apbdoo\project\domain\Film.class
+apbdoo\project\domain\Angajat.class
+apbdoo\project\domain\Functie.class
+apbdoo\project\controllers\IndexController.class
+apbdoo\project\domain\Rol.class
+apbdoo\project\Spring5JpaApplication.class
+apbdoo\project\domain\Info.class
+apbdoo\project\domain\Utilizator.class
+apbdoo\project\domain\Drept.class
+apbdoo\project\domain\Cast.class

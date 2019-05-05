@@ -1,0 +1,17 @@
+com\apbdoo\lab8\service\CustomerServiceImpl.class
+com\apbdoo\lab8\config\AOPConfig.class
+com\apbdoo\lab8\model\Hello.class
+com\apbdoo\lab8\dao\CustomerDAO.class
+com\apbdoo\lab8\controllers\HelloController.class
+com\apbdoo\lab8\config\PersistenceConfig.class
+com\apbdoo\lab8\aspects\LoggingAspect3.class
+com\apbdoo\lab8\config\ServletConfig.class
+com\apbdoo\lab8\dao\CustomerDAOImpl.class
+com\apbdoo\lab8\service\CustomerService.class
+com\apbdoo\lab8\controllers\IndexController.class
+com\apbdoo\lab8\controllers\CustomerController.class
+com\apbdoo\lab8\aspects\LoggingAspect.class
+com\apbdoo\lab8\aspects\LoggingAspect2.class
+com\apbdoo\lab8\model\Customer.class
+com\apbdoo\lab8\config\Lab8Config.class
+com\apbdoo\lab8\config\PersistenceConfig$1.class
