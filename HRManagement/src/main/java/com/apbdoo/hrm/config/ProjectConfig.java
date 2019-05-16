@@ -28,7 +28,7 @@ public class ProjectConfig {
     @Bean(name = "ServletContextTemplateResolver")
     public ServletContextTemplateResolver templateResolver(ServletContext servletContext){
         ServletContextTemplateResolver templateResolver = new ServletContextTemplateResolver(servletContext);
-        templateResolver.setPrefix("WEB-INF/views/");
+        templateResolver.setPrefix("WEB-INF/");
         templateResolver.setSuffix(".html");
         templateResolver.setTemplateMode("HTML5");
         return templateResolver;

@@ -1,8 +1,7 @@
 package com.apbdoo.hrm.entity;
 
 import javax.persistence.*;
-import java.util.HashSet;
-import java.util.Set;
+import javax.validation.constraints.NotEmpty;
 
 @Entity
 public class Functie {
@@ -10,6 +9,7 @@ public class Functie {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @NotEmpty(message = "Te rog sa introduci numele acestei functii!")
     private String nume;
 
     public Long getId() {
