@@ -5,6 +5,8 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.ViewResolver;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
+import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import org.thymeleaf.spring5.SpringTemplateEngine;
 import org.thymeleaf.spring5.dialect.SpringStandardDialect;
 import org.thymeleaf.spring5.view.ThymeleafViewResolver;
@@ -15,7 +17,7 @@ import javax.servlet.ServletContext;
 @Configuration
 @EnableWebMvc
 @ComponentScan(basePackages = "com.apbdoo.hrm")
-public class ProjectConfig {
+public class ProjectConfig implements WebMvcConfigurer {
 
     @Bean(name = "templateEngine")
     public SpringTemplateEngine templateEngine(ServletContext servletContext){
@@ -41,5 +43,10 @@ public class ProjectConfig {
         thymeleafViewResolver.setCharacterEncoding("UTF-8");
         thymeleafViewResolver.setTemplateEngine(templateEngine(servletContext));
         return thymeleafViewResolver;
+    }
+
+    @Override
+    public void addResourceHandlers(ResourceHandlerRegistry registry) {
+        registry.addResourceHandler("/webjars/**").addResourceLocations("classpath:/META-INF/resources/webjars/");
     }
 }
