@@ -3,12 +3,21 @@
   <component name="ChangeListManager">
     <list default="true" id="8fc976a8-0558-4097-a36f-6e65d6cf20d9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../HRManagement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HRManagement/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HRManagement/src/main/java/com/apbdoo/hrm/config/ProjectConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HRManagement/src/main/java/com/apbdoo/hrm/config/ProjectConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HRManagement/src/main/java/com/apbdoo/hrm/controller/FunctieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HRManagement/src/main/java/com/apbdoo/hrm/controller/FunctieController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HRManagement/src/main/java/com/apbdoo/hrm/controller/IndexController.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../HRManagement/src/main/java/com/apbdoo/hrm/entity/Functie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HRManagement/src/main/java/com/apbdoo/hrm/entity/Functie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LAB10_START/LAB10_START/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LAB10_START/LAB10_START/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HRManagement/src/main/webapp/WEB-INF/views/customer-form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HRManagement/src/main/webapp/WEB-INF/views/formName.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HRManagement/src/main/webapp/WEB-INF/views/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HRManagement/src/main/webapp/WEB-INF/views/list-customers.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HRManagement/src/main/webapp/WEB-INF/views/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HRManagement/src/main/webapp/WEB-INF/views/result.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HRManagement/target/classes/META-INF/HRManagement.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HRManagement/target/classes/com/apbdoo/hrm/controller/FunctieController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HRManagement/target/classes/com/apbdoo/hrm/controller/FunctieController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HRManagement/target/classes/com/apbdoo/hrm/controller/IndexController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HRManagement/target/classes/com/apbdoo/hrm/entity/Functie.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HRManagement/target/classes/com/apbdoo/hrm/entity/Functie.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/apbdoo/laboratorul6/controllers/FilmController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/apbdoo/laboratorul6/controllers/FilmController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LAB8_START/LAB8_START/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LAB8_START/LAB8_START/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Proiect/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Proiect/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,36 +29,18 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/apbdoo/laboratorul6/controllers/CastController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="31" column="50" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/apbdoo/laboratorul6/repositories/FilmRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/new.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
+            <state relative-caret-position="595">
               <caret line="35" column="63" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="63" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/apbdoo/laboratorul6/domain/Film.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="102">
               <caret line="22" column="41" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="41" />
             </state>
           </provider>
@@ -67,7 +58,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/apbdoo/laboratorul6/services/FilmServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-216">
+            <state relative-caret-position="85">
               <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
             </state>
           </provider>
@@ -76,17 +67,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/apbdoo/laboratorul6/controllers/FilmController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-46">
-              <caret line="35" column="55" lean-forward="true" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
+            <state relative-caret-position="442">
+              <caret line="35" column="55" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/cast/show.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-32">
-              <caret line="26" column="52" lean-forward="true" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
+            <state relative-caret-position="442">
+              <caret line="26" column="52" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/cast/castform.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="461">
+              <caret line="42" column="45" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -140,7 +140,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -278,6 +277,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -376,6 +376,9 @@
       <workItem from="1553062527956" duration="5218000" />
       <workItem from="1553667371839" duration="28000" />
       <workItem from="1558027546950" duration="5480000" />
+      <workItem from="1558121068694" duration="1124000" />
+      <workItem from="1558122532714" duration="249000" />
+      <workItem from="1558123278070" duration="1391000" />
     </task>
     <servers />
   </component>
@@ -388,13 +391,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10726000" />
+    <option name="totallyTimeSpent" value="13490000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -593,66 +596,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/apbdoo/laboratorul6/repositories/FilmRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/apbdoo/laboratorul6/domain/InfoActor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/apbdoo/laboratorul6/domain/Categorie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/apbdoo/laboratorul6/domain/Cast.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/apbdoo/laboratorul6/domain/Audienta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/apbdoo/laboratorul6/services/CastService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/apbdoo/laboratorul6/services/FilmServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-216">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/apbdoo/laboratorul6/domain/Film.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="22" column="41" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/cast/castform.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="9" column="74" lean-forward="true" selection-start-line="9" selection-start-column="74" selection-end-line="9" selection-end-column="74" />
         </state>
       </provider>
     </entry>
@@ -670,31 +617,87 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/apbdoo/laboratorul6/controllers/CastController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="31" column="50" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/apbdoo/laboratorul6/repositories/FilmRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/new.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
+        <state relative-caret-position="595">
           <caret line="35" column="63" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="63" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/apbdoo/laboratorul6/controllers/CastController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/apbdoo/laboratorul6/services/CastService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="31" column="50" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
+        <state relative-caret-position="68">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/apbdoo/laboratorul6/services/FilmServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/apbdoo/laboratorul6/controllers/FilmController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-46">
-          <caret line="35" column="55" lean-forward="true" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
+        <state relative-caret-position="442">
+          <caret line="35" column="55" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/cast/show.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-32">
-          <caret line="26" column="52" lean-forward="true" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
+        <state relative-caret-position="442">
+          <caret line="26" column="52" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/apbdoo/laboratorul6/domain/Audienta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/apbdoo/laboratorul6/domain/Cast.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/apbdoo/laboratorul6/domain/Categorie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/cast/castform.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="42" column="45" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/apbdoo/laboratorul6/domain/Film.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="22" column="41" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="41" />
         </state>
       </provider>
     </entry>

@@ -2,7 +2,7 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8"/>
-    <title>View functie</title>
+    <title>View competenta</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
           integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"
           th:href="@{/webjars/bootstrap/3.3.7-1/css/bootstrap.min.css}">
@@ -25,13 +25,19 @@
                         <div class="row">
                             <div class="col-md-12 form-group">
                                 <label>Id:</label>
-                                <input type="text" class="form-control" th:field="*{functie.id}" disabled/>
+                                <input type="text" class="form-control" th:field="*{competenta.id}" disabled/>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-12 form-group">
                                 <label>Nume:</label>
-                                <input type="text" class="form-control" th:field="*{functie.nume}" disabled/>
+                                <input type="text" class="form-control" th:field="*{competenta.nume}" disabled/>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 form-group">
+                                <label>Descriere:</label>
+                                <textarea rows="5" class="form-control" th:field="*{competenta.descriere}" disabled></textarea>
                             </div>
                         </div>
                     </div>

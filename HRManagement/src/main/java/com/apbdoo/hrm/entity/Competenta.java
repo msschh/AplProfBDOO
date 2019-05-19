@@ -6,7 +6,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 @Entity
-public class Functie {
+public class Competenta {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -14,8 +14,11 @@ public class Functie {
     @NotEmpty(message = "Acest camp trebuie introdus!")
     private String nume;
 
-    @OneToMany(cascade = CascadeType.ALL, mappedBy = "functie")
-    private Set<Angajat> angajati = new HashSet<>();
+    @NotEmpty(message = "Acest camp trebuie introdus!")
+    private String descriere;
+
+    @ManyToMany(mappedBy = "competente")
+    private Set<Candidat> candidati = new HashSet<>();
 
     public Long getId() {
         return id;
@@ -33,11 +36,19 @@ public class Functie {
         this.nume = nume;
     }
 
-    public Set<Angajat> getAngajati() {
-        return angajati;
+    public String getDescriere() {
+        return descriere;
     }
 
-    public void setAngajati(Set<Angajat> angajati) {
-        this.angajati = angajati;
+    public void setDescriere(String descriere) {
+        this.descriere = descriere;
+    }
+
+    public Set<Candidat> getCandidati() {
+        return candidati;
+    }
+
+    public void setCandidati(Set<Candidat> candidati) {
+        this.candidati = candidati;
     }
 }

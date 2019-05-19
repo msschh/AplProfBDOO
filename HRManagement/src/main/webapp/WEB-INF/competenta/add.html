@@ -2,7 +2,7 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8"/>
-    <title>Edit functie</title>
+    <title>Edit competenta</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
           integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"
           th:href="@{/webjars/bootstrap/3.3.7-1/css/bootstrap.min.css}">
@@ -16,7 +16,7 @@
 <div class="container-fluid" style="margin-top: 20px">
     <div class="row">
         <div class="col-md-6 col-md-offset-3">
-            <form  th:object="${functie}" th:action="@{'/functie/createOrUpdate'}" method="post">
+            <form  th:object="${competenta}" th:action="@{'/competenta/createOrUpdate'}" method="post">
                 <input type="hidden" th:field="*{id}"/>
                 <div class="pannel-group">
                     <div class="panel panel-primary">
@@ -31,6 +31,13 @@
                                 </div>
                             </div>
                             <table><td th:if="${#fields.hasErrors('nume')}" th:errors="*{nume}">Error</td></table>
+                            <div class="row">
+                                <div class="col-md-12 form-group">
+                                    <label>Descriere:</label>
+                                    <textarea rows="5" class="form-control" th:field="*{descriere}"></textarea>
+                                </div>
+                            </div>
+                            <table><td th:if="${#fields.hasErrors('descriere')}" th:errors="*{descriere}">Error</td></table>
                         </div>
                     </div>
                     <button type="submit" class="btn btn-primary">Submit</button>

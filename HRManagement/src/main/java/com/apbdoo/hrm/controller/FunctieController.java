@@ -20,7 +20,7 @@ public class FunctieController {
         this.functieService = functieService;
     }
 
-    @GetMapping("functie/list")
+    @GetMapping("functie")
     public String list(Model model) {
         model.addAttribute("functii", functieService.getFunctii());
         return "functie/list";
@@ -50,12 +50,12 @@ public class FunctieController {
             return "functie/add";
         }
         Functie savedFunctie = functieService.saveFunctie(functie);
-        return "redirect:/functie/list";
+        return "redirect:/functie/view/" + savedFunctie.getId();
     }
 
     @GetMapping("functie/delete/{idFunctie}")
     public String delete(@PathVariable long idFunctie) {
         functieService.deleteFunctie(idFunctie);
-        return "redirect:/functie/list";
+        return "redirect:/functie";
     }
 }
