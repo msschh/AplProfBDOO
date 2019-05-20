@@ -49,4 +49,12 @@ public class Evaluare {
     public void setCandidat(Candidat candidat) {
         this.candidat = candidat;
     }
+
+    @Override
+    public String toString() {
+        return "Evaluare{" +
+                "id=" + id +
+                ", descriere='" + descriere + '\'' +
+                '}';
+    }
 }

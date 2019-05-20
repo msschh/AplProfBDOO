@@ -52,4 +52,12 @@ public class Utilizator {
     public void setAngajat(Angajat angajat) {
         this.angajat = angajat;
     }
+
+    @Override
+    public String toString() {
+        return "Utilizator{" +
+                "id=" + id +
+                ", username='" + username + '\'' +
+                '}';
+    }
 }

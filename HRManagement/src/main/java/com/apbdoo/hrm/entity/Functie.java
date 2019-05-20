@@ -40,4 +40,12 @@ public class Functie {
     public void setAngajati(Set<Angajat> angajati) {
         this.angajati = angajati;
     }
+
+    @Override
+    public String toString() {
+        return "Functie{" +
+                "id=" + id +
+                ", nume='" + nume + '\'' +
+                '}';
+    }
 }

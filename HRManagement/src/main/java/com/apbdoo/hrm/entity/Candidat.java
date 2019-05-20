@@ -93,4 +93,15 @@ public class Candidat {
     public void setEvaluari(Set<Evaluare> evaluari) { this.evaluari = evaluari; }
 
     public String getNumeComplet() { return this.prenume + " " + this.nume; }
+
+    @Override
+    public String toString() {
+        return "Candidat{" +
+                "id=" + id +
+                ", nume='" + nume + '\'' +
+                ", prenume='" + prenume + '\'' +
+                ", email='" + email + '\'' +
+                ", telefon='" + telefon + '\'' +
+                '}';
+    }
 }

@@ -44,11 +44,16 @@ public class Competenta {
         this.descriere = descriere;
     }
 
-    public Set<Candidat> getCandidati() {
-        return candidati;
-    }
+    public Set<Candidat> getCandidati() { return candidati; }
 
-    public void setCandidati(Set<Candidat> candidati) {
-        this.candidati = candidati;
+    public void setCandidati(Set<Candidat> candidati) { this.candidati = candidati; }
+
+    @Override
+    public String toString() {
+        return "Competenta{" +
+                "id=" + id +
+                ", nume='" + nume + '\'' +
+                ", descriere='" + descriere + '\'' +
+                '}';
     }
 }

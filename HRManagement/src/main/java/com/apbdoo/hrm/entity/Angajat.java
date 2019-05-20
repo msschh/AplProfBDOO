@@ -115,4 +115,17 @@ public class Angajat {
     public void setEvaluari(Set<Evaluare> evaluari) { this.evaluari = evaluari; }
 
     public String getNumeComplet() { return this.prenume + " " + this.nume; }
+
+    @Override
+    public String toString() {
+        return "Angajat{" +
+                "id=" + id +
+                ", nume='" + nume + '\'' +
+                ", prenume='" + prenume + '\'' +
+                ", cod='" + cod + '\'' +
+                ", dtNastere=" + dtNastere +
+                ", email='" + email + '\'' +
+                ", telefon='" + telefon + '\'' +
+                '}';
+    }
 }

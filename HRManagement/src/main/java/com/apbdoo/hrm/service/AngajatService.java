@@ -14,4 +14,6 @@ public interface AngajatService {
     void deleteAngajat(long idAngajat);
 
     List<Angajat> getRecruiteri();
+
+    List<Angajat> getProjectManageri();
 }
