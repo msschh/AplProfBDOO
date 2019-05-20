@@ -9,7 +9,7 @@ import java.util.List;
 
 @Service
 public class AngajatServiceImpl implements AngajatService {
-    private static final Long ID_RECRUITER = 106l;
+    private static final Long ID_RECRUITER = 5l;
 
     AngajatRepository angajatRepository;
 
@@ -42,9 +42,9 @@ public class AngajatServiceImpl implements AngajatService {
     }
 
     @Override
-    public List<Angajat> readRecruiteri() {
+    public List<Angajat> getRecruiteri() {
         List<Angajat> recruiteri = new ArrayList<>();
-        getAngajati().stream().filter(angajat -> angajat.getFunctie().getId() == ID_RECRUITER).forEach(recruiteri::add);
+        getAngajati().stream().filter(angajat -> angajat.getFunctie().getId().equals(ID_RECRUITER)).forEach(recruiteri::add);
         return recruiteri;
     }
 

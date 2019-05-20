@@ -31,6 +31,9 @@ public class Candidat {
             inverseJoinColumns = @JoinColumn(name = "competenta_id"))
     private Set<Competenta> competente = new HashSet<>();
 
+    @OneToMany(cascade = CascadeType.ALL, mappedBy = "candidat")
+    private Set<Evaluare> evaluari = new HashSet<>();
+
     public Long getId() {
         return id;
     }
@@ -83,7 +86,11 @@ public class Candidat {
         return competente;
     }
 
-    public void setCompetente(Set<Competenta> competente) {
-        this.competente = competente;
-    }
+    public void setCompetente(Set<Competenta> competente) { this.competente = competente; }
+
+    public Set<Evaluare> getEvaluari() { return evaluari; }
+
+    public void setEvaluari(Set<Evaluare> evaluari) { this.evaluari = evaluari; }
+
+    public String getNumeComplet() { return this.prenume + " " + this.nume; }
 }

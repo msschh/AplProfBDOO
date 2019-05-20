@@ -13,5 +13,5 @@ public interface AngajatService {
 
     void deleteAngajat(long idAngajat);
 
-    List<Angajat> readRecruiteri();
+    List<Angajat> getRecruiteri();
 }

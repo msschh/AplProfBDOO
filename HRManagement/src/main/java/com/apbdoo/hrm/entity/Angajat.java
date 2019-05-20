@@ -37,6 +37,9 @@ public class Angajat {
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "recruiter")
     private Set<Candidat> candidati = new HashSet<>();
 
+    @OneToMany(cascade = CascadeType.ALL, mappedBy = "responsabil")
+    private Set<Evaluare> evaluari = new HashSet<>();
+
     public Long getId() {
         return id;
     }
@@ -101,11 +104,15 @@ public class Angajat {
         this.functie = functie;
     }
 
-    public Set<Candidat> getCandidati() {
-        return candidati;
-    }
+    public Set<Candidat> getCandidati() { return candidati; }
 
     public void setCandidati(Set<Candidat> candidati) {
         this.candidati = candidati;
     }
+
+    public Set<Evaluare> getEvaluari() { return evaluari; }
+
+    public void setEvaluari(Set<Evaluare> evaluari) { this.evaluari = evaluari; }
+
+    public String getNumeComplet() { return this.prenume + " " + this.nume; }
 }
