@@ -72,7 +72,7 @@
                             </tr>
                             <tr th:each="utilizator : ${utilizatori}">
                                 <td th:text="${utilizator.username}">username</td>
-                                <td th:text="${utilizator.angajat.nume}">angajat</td>
+                                <td th:text="${utilizator.angajat.numeComplet}">angajat</td>
                                 <td><a href="#" th:href="@{'/utilizator/view/' + ${utilizator.id}}">View</a></td>
                                 <td><a href="#" th:href="@{'/utilizator/edit/' + ${utilizator.id}}">Update</a></td>
                                 <td><a href="#" th:href="@{'/utilizator/delete/' + ${utilizator.id}}">Delete</a></td>

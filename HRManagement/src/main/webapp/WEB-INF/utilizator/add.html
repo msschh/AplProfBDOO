@@ -68,7 +68,7 @@
                                         <option th:each="angajatEach : ${angajati}"
                                                 th:value="${angajatEach.id}"
                                                 th:selected="${angajatEach.id.equals(utilizator.angajat.id)}"
-                                                th:text="${angajatEach.nume}">Nume</option>
+                                                th:text="${angajatEach.numeComplet}">Nume</option>
                                     </select>
                                 </div>
                             </div>

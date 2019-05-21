@@ -64,13 +64,13 @@ public class FunctieControllerTest {
         
         when(functieService.readFunctie(1)).thenReturn(found);
         
-        /*mockMvc.perform(get("functie/view/{idFunctie}", 1l))
+        mockMvc.perform(get("/functie/view/{idFunctie}", 1l))
                 .andExpect(status().isOk())
                 .andExpect(view().name("functie/view"))
                 .andExpect(model().attribute("functie", hasProperty("id", is(1l))))
                 .andExpect(model().attribute("functie", hasProperty("nume", is("Recruiter"))));
         
         verify(functieService, times(1)).readFunctie(1);
-        verifyNoMoreInteractions(functieService);*/
+        verifyNoMoreInteractions(functieService);
     }
 }
