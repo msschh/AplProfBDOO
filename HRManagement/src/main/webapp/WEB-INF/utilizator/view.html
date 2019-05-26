@@ -19,6 +19,7 @@
             <div class="col-md-6 col-md-offset-3">
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
+                        <li><a th:href="@{'/index'}">Hello</a></li>
                         <li><a th:href="@{'/angajat'}">Angajat</a></li>
                         <li><a th:href="@{'/candidat'}">Candidat</a></li>
                         <li><a th:href="@{'/competenta'}">Competenta</a></li>
@@ -57,6 +58,15 @@
                             <div class="col-md-12 form-group">
                                 <label>Angajat:</label>
                                 <input type="text" class="form-control" th:field="*{utilizator.angajat.numeComplet}" disabled/>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 form-group">
+                                <label>Rol:</label>
+                                <li th:each="rol : ${roles}">
+                                    <input type="checkbox" th:field="*{utilizator.roles}" th:value="${rol.id}" disabled/>
+                                    <label th:text="${rol.name}">rol</label>
+                                </li>
                             </div>
                         </div>
                     </div>

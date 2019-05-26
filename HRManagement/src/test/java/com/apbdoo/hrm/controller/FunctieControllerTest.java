@@ -9,6 +9,7 @@ import org.mockito.Mock;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
 import org.springframework.boot.test.mock.mockito.MockBean;
+import org.springframework.security.test.context.support.WithMockUser;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
@@ -34,6 +35,7 @@ public class FunctieControllerTest {
     private FunctieService functieService;
     
     @Test
+    @WithMockUser(roles = "HR")
     public void list_ShouldAddFunctieEntriesToModelAndRenderFunctieListView() throws Exception {
         Functie first = new Functie();
         first.setId(1l);
@@ -57,6 +59,7 @@ public class FunctieControllerTest {
     }
     
     @Test
+    @WithMockUser(roles = "HR")
     public void view_FunctieFound_ShouldAddFunctieEntryAndRenderFunctieView() throws Exception {
         Functie found = new Functie();
         found.setId(1l);

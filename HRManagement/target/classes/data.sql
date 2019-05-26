@@ -15,3 +15,7 @@ insert into CANDIDAT(ID, NUME, PRENUME, TELEFON, EMAIL, RECRUITER_ID) values ('1
 insert into CANDIDAT_COMPETENTA(CANDIDAT_ID, COMPETENTA_ID) values ('1', '2');
 
 insert into EVALUARE(ID, DESCRIERE, CANDIDAT_ID, RESPONSABIL_ID) values ('1', 'Cunostinte de middle level', '1', '2');
+
+insert into ROLE(id, name) values ('1', 'ROLE_ADMIN');
+insert into ROLE(id, name) values ('2', 'ROLE_CANDIDAT');
+insert into ROLE(id, name) values ('3', 'ROLE_HR');

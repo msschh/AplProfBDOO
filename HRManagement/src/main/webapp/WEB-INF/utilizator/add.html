@@ -19,6 +19,7 @@
             <div class="col-md-6 col-md-offset-3">
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
+                        <li><a th:href="@{'/index'}">Hello</a></li>
                         <li><a th:href="@{'/angajat'}">Angajat</a></li>
                         <li><a th:href="@{'/candidat'}">Candidat</a></li>
                         <li><a th:href="@{'/competenta'}">Competenta</a></li>
@@ -70,6 +71,16 @@
                                                 th:selected="${angajatEach.id.equals(utilizator.angajat.id)}"
                                                 th:text="${angajatEach.numeComplet}">Nume</option>
                                     </select>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 form-group">
+                                    <label>Roluri:</label>
+                                    <li th:each="role : ${roles}">
+                                        <input type="checkbox" th:field="*{roles}" th:value="${role.id}" />
+                                        <label th:for="${#ids.prev('roles')}"
+                                               th:text="${role.name}">roles</label>
+                                    </li>
                                 </div>
                             </div>
                         </div>

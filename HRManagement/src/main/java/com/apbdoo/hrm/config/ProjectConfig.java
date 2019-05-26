@@ -50,4 +50,11 @@ public class ProjectConfig implements WebMvcConfigurer {
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         registry.addResourceHandler("/webjars/**").addResourceLocations("classpath:/META-INF/resources/webjars/");
     }
+
+    @Override
+    public void addViewControllers(ViewControllerRegistry registry) {
+        registry.addViewController("/index").setViewName("index");
+        registry.addViewController("/").setViewName("index");
+        registry.addViewController("/login").setViewName("login");
+    }
 }

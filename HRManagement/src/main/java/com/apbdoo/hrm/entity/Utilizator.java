@@ -6,11 +6,12 @@ import javax.persistence.*;
 import javax.validation.Valid;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
+import java.util.Collection;
 
 @Entity
 public class Utilizator {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
     @NotEmpty(message = "Te rog sa introduci un username!")
@@ -20,6 +21,15 @@ public class Utilizator {
 
     @OneToOne
     private Angajat angajat;
+
+    @ManyToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+    @JoinTable(
+            name = "utilizatori_roles",
+            joinColumns = @JoinColumn(
+                    name = "utilizator_id", referencedColumnName = "id"),
+            inverseJoinColumns = @JoinColumn(
+                    name = "role_id", referencedColumnName = "id"))
+    private Collection<Role> roles;
 
     public Long getId() {
         return id;
@@ -51,6 +61,14 @@ public class Utilizator {
 
     public void setAngajat(Angajat angajat) {
         this.angajat = angajat;
+    }
+
+    public Collection<Role> getRoles() {
+        return roles;
+    }
+
+    public void setRoles(Collection<Role> roles) {
+        this.roles = roles;
     }
 
     @Override

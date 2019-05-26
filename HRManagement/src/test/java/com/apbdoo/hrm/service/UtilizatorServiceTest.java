@@ -3,12 +3,14 @@ package com.apbdoo.hrm.service;
 import com.apbdoo.hrm.config.ProjectConfig;
 import com.apbdoo.hrm.entity.Utilizator;
 import com.apbdoo.hrm.repository.UtilizatorRepository;
+import com.apbdoo.hrm.util.EncryptionUtil;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.TestConfiguration;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.context.annotation.Bean;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
@@ -21,6 +23,9 @@ public class UtilizatorServiceTest {
     
     @Autowired
     UtilizatorService utilizatorService;
+
+    @MockBean
+    BCryptPasswordEncoder bCryptPasswordEncoder;
     
     @MockBean
     UtilizatorRepository utilizatorRepository;
@@ -32,6 +37,7 @@ public class UtilizatorServiceTest {
         utilizator.setParola("parola");
         
         when(utilizatorRepository.save(utilizator)).thenReturn(utilizator);
+        when(bCryptPasswordEncoder.encode(utilizator.getParola())).thenReturn(EncryptionUtil.encrypt(utilizator.getParola()));
         
         utilizator = utilizatorService.saveUtilizator(utilizator);
         
@@ -46,6 +52,7 @@ public class UtilizatorServiceTest {
         utilizator.setParola("parola");
 
         when(utilizatorRepository.save(utilizator)).thenReturn(utilizator);
+        when(bCryptPasswordEncoder.encode(utilizator.getParola())).thenReturn(EncryptionUtil.encrypt(utilizator.getParola()));
 
         utilizator = utilizatorService.saveUtilizator(utilizator);
 
