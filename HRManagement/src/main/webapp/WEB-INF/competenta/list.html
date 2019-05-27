@@ -10,6 +10,12 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
             integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
             crossorigin="anonymous" th:src="@{/webjars/bootstrap/3.3.7-1/js/bootstrap.min.js}"></script>
+    <style>
+        .pagination-div{user-select: none;}
+        .pagination-div span{border-radius:3px;border:1px solid #999;
+            padding:5px;margin:10px 0px 0px 10px;display:inline-block}
+        span.selected{background:#ccf;}
+    </style>
 </head>
 <body>
 <nav class="navbar navbar-default">
@@ -46,7 +52,7 @@
                     </div>
                 </div>
                 <div class="panel-body">
-                    <div class="table-responsive" th:if="${not #lists.isEmpty(competente)}">
+                    <div class="table-responsive" th:if="${not #lists.isEmpty(page.content)}">
                         <table class="table table-hover ">
                             <thead class="thead-inverse">
                             <tr>
@@ -71,7 +77,7 @@
                                 <td><a href="#">Update</a></td>
                                 <td><a href="#">Delete</a></td>
                             </tr>
-                            <tr th:each="competenta : ${competente}">
+                            <tr th:each="competenta : ${page.content}">
                                 <td th:text="${competenta.id}">1</td>
                                 <td th:text="${competenta.nume}">nume</td>
                                 <td><a href="#" th:href="@{'/competenta/view/' + ${competenta.id}}">View</a></td>
@@ -80,6 +86,21 @@
                             </tr>
                         </table>
                     </div>
+                </div>
+                <div class="pagination-div">
+                    <span th:if="${page.hasPrevious()}">
+                        <a th:href="@{/competenta(page=${page.number-1},size=${page.size})}">Previous</a>
+                    </span>
+                    <th:block th:each="i: ${#numbers.sequence(0, page.totalPages - 1)}">
+                        <span th:if="${page.number == i}" class="selected">[[${i}+1]]</span>
+                        <span th:unless="${page.number == i}">
+                            <a th:href="@{/competenta(page=${i},size=${page.size})}">[[${i}+1]]</a>
+                        </span>
+                    </th:block>
+                    <span th:if="${page.hasNext()}">
+                        <a th:href="@{/competenta(page=${page.number+1},size=${page.size})}">Next</a>
+                    </span>
+                    <br/><br/>
                 </div>
             </div>
         </div>

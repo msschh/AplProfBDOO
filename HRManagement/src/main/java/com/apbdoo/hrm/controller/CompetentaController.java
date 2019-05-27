@@ -4,6 +4,8 @@ import com.apbdoo.hrm.entity.Competenta;
 import com.apbdoo.hrm.entity.Functie;
 import com.apbdoo.hrm.service.CompetentaService;
 import com.apbdoo.hrm.service.FunctieService;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.web.PageableDefault;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -23,8 +25,8 @@ public class CompetentaController {
     }
 
     @GetMapping("competenta")
-    public String list(Model model) {
-        model.addAttribute("competente", competentaService.getCompetente());
+    public String list(@PageableDefault(size = 10) Pageable pageable, Model model) {
+        model.addAttribute("page", competentaService.getCompetente(pageable));
         return "competenta/list";
     }
 

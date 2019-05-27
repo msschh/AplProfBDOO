@@ -2,6 +2,8 @@ package com.apbdoo.hrm.service;
 
 import com.apbdoo.hrm.entity.Competenta;
 import com.apbdoo.hrm.repository.CompetentaRepository;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -19,6 +21,12 @@ public class CompetentaServiceImpl implements CompetentaService {
     public List<Competenta> getCompetente() {
         List<Competenta> competente = new ArrayList<>();
         competentaRepository.findAll().iterator().forEachRemaining(competente::add);
+        return competente;
+    }
+
+    @Override
+    public Page<Competenta> getCompetente(Pageable pageable) {
+        Page<Competenta> competente = competentaRepository.findAll(pageable);
         return competente;
     }
 

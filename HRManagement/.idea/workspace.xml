@@ -3,42 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="b08abed2-62c3-403c-bb9f-fe2777aa9f84" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/config/ProjectConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/config/ProjectConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/controller/UtilizatorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/controller/UtilizatorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/entity/Utilizator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/entity/Utilizator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/repository/UtilizatorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/repository/UtilizatorRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/service/UtilizatorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/service/UtilizatorService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/service/UtilizatorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/service/UtilizatorServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/angajat/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/angajat/add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/angajat/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/angajat/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/angajat/view.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/angajat/view.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/candidat/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/candidat/add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/candidat/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/candidat/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/candidat/view.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/candidat/view.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/competenta/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/competenta/add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/controller/CompetentaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/controller/CompetentaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/repository/CompetentaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/repository/CompetentaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/service/CompetentaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/service/CompetentaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/service/CompetentaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/service/CompetentaServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/competenta/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/competenta/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/competenta/view.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/competenta/view.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/evaluare/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/evaluare/add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/evaluare/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/evaluare/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/evaluare/view.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/evaluare/view.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/functie/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/functie/add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/functie/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/functie/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/functie/view.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/functie/view.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/utilizator/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/utilizator/add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/utilizator/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/utilizator/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/utilizator/view.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/utilizator/view.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/apbdoo/hrm/controller/FunctieControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/apbdoo/hrm/controller/FunctieControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/apbdoo/hrm/service/UtilizatorServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/apbdoo/hrm/service/UtilizatorServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/apbdoo/hrm/config/ProjectConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/apbdoo/hrm/config/ProjectConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/apbdoo/hrm/controller/UtilizatorController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/apbdoo/hrm/controller/UtilizatorController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/apbdoo/hrm/entity/Utilizator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/apbdoo/hrm/entity/Utilizator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/apbdoo/hrm/repository/UtilizatorRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/apbdoo/hrm/repository/UtilizatorRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/apbdoo/hrm/service/UtilizatorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/apbdoo/hrm/service/UtilizatorService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/apbdoo/hrm/service/UtilizatorServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/apbdoo/hrm/service/UtilizatorServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/apbdoo/hrm/service/UtilizatorServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/apbdoo/hrm/service/UtilizatorServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/apbdoo/hrm/controller/CandidatController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/apbdoo/hrm/controller/CandidatController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/apbdoo/hrm/controller/CompetentaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/apbdoo/hrm/controller/CompetentaController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/apbdoo/hrm/repository/CompetentaRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/apbdoo/hrm/repository/CompetentaRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/apbdoo/hrm/service/CompetentaService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/apbdoo/hrm/service/CompetentaService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/apbdoo/hrm/service/CompetentaServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/apbdoo/hrm/service/CompetentaServiceImpl.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -52,7 +26,26 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/controller/CompetentaController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/competenta/list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="328">
+              <caret line="102" column="30" selection-start-line="102" selection-start-column="30" selection-end-line="102" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -76,6 +69,7 @@
       <find>db connection</find>
       <find>h2</find>
       <find>authenticationProvider</find>
+      <find>employees</find>
     </findStrings>
     <replaceStrings>
       <replace>col-md-10</replace>
@@ -88,15 +82,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/config/DBConfiguration.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com.apbdoo.hrm/controller/FunctieControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/apbdoo/hrm/controller/service/UtilizatorServiceTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/apbdoo/hrm/util/EncryptionUtilTest.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/homepage.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/config/SecurityConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application-test.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/UserRegistrationDto.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/repository/UtilizatorRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/service/UtilizatorService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/repository/UserRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/service/UserServiceImpl.java" />
@@ -128,7 +113,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/evaluare/list.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/evaluare/view.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/competenta/add.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/competenta/list.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/competenta/view.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/candidat/add.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/candidat/list.html" />
@@ -139,6 +123,16 @@
         <option value="$PROJECT_DIR$/src/test/java/com/apbdoo/hrm/service/UtilizatorServiceTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/apbdoo/hrm/controller/FunctieControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/controller/FunctieController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/service/FunctieService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/service/FunctieServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/repository/FunctieRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/repository/CompetentaRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/controller/CompetentaController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/controller/CandidatController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/service/CompetentaServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/service/CompetentaService.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/competenta/list.html" />
       </list>
     </option>
   </component>
@@ -184,7 +178,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -203,11 +197,80 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="HRManagement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HRManagement" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HRManagement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HRManagement" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hrm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HRManagement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HRManagement" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hrm" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HRManagement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HRManagement" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HRManagement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HRManagement" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HRManagement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HRManagement" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="competenta" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HRManagement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HRManagement" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HRManagement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HRManagement" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HRManagement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HRManagement" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hrm" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -256,7 +319,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FunctieControllerTest">
+  <component name="RunManager" selected="Spring Boot.SpringJpaApplication">
     <configuration name="EncryptionUtilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HRManagement" />
       <extension name="coverage">
@@ -348,8 +411,8 @@
       <item itemvalue="JUnit.FunctieControllerTest" />
       <item itemvalue="JUnit.FunctieControllerTest.view_FunctieFound_ShouldAddFunctieEntryAndRenderFunctieView" />
       <item itemvalue="JUnit.UtilizatorServiceTest" />
-      <item itemvalue="Spring Boot.SpringJpaApplication" />
       <item itemvalue="JUnit.FunctieControllerTest.list_ShouldAddFunctieEntriesToModelAndRenderFunctieListView" />
+      <item itemvalue="Spring Boot.SpringJpaApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -398,6 +461,7 @@
       <workItem from="1558587906086" duration="1304000" />
       <workItem from="1558592893421" duration="2000" />
       <workItem from="1558876254633" duration="11804000" />
+      <workItem from="1558986940126" duration="1403000" />
     </task>
     <servers />
   </component>
@@ -434,12 +498,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89360000" />
+    <option name="totallyTimeSpent" value="90763000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31013617" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31467474" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -478,150 +543,9 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="XDebuggerManager">
-    <watches-manager>
-      <configuration name="SpringBootApplicationConfigurationType">
-        <watch expression="EncryptionUtil.encrypt(utilizator.getParola())" />
-      </configuration>
-    </watches-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/repository/UtilizatorRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/repository/UserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/UserRegistrationDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1145#1146#0" expanded="true" />
-            <element signature="e#1199#1200#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/service/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#982#983#0" expanded="true" />
-            <element signature="e#1038#1039#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="673">
-          <caret line="52" column="7" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/login1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="65" column="8" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/registration.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="64" column="22" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/entity/Functie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="54" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1241#1242#0" expanded="true" />
-            <element signature="e#1266#1267#0" expanded="true" />
-            <element signature="e#1300#1301#0" expanded="true" />
-            <element signature="e#1328#1329#0" expanded="true" />
-            <element signature="e#1364#1365#0" expanded="true" />
-            <element signature="e#1396#1397#0" expanded="true" />
-            <element signature="e#1446#1447#0" expanded="true" />
-            <element signature="e#1488#1489#0" expanded="true" />
-            <element signature="e#1523#1524#0" expanded="true" />
-            <element signature="e#1554#1555#0" expanded="true" />
-            <element signature="e#1602#1603#0" expanded="true" />
-            <element signature="e#1642#1643#0" expanded="true" />
-            <element signature="e#1674#1675#0" expanded="true" />
-            <element signature="e#1702#1703#0" expanded="true" />
-            <element signature="e#1744#1745#0" expanded="true" />
-            <element signature="e#1778#1779#0" expanded="true" />
-            <element signature="e#1813#1814#0" expanded="true" />
-            <element signature="e#1844#1845#0" expanded="true" />
-            <element signature="e#1892#1893#0" expanded="true" />
-            <element signature="e#1932#1933#0" expanded="true" />
-            <element signature="e#1977#1978#0" expanded="true" />
-            <element signature="e#2005#2006#0" expanded="true" />
-            <element signature="e#2060#2061#0" expanded="true" />
-            <element signature="e#2094#2095#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/controller/UserRegistrationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="38" column="107" selection-start-line="38" selection-start-column="107" selection-end-line="38" selection-end-column="107" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/controller/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" selection-start-column="10" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/controller/UserRegistrationController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/controller/MainController.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.1.1.RELEASE/spring-security-core-5.1.1.RELEASE.jar!/org/springframework/security/core/userdetails/UserDetailsService.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -666,13 +590,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/controller/CompetentaController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/service/RoleServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -687,13 +604,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="99">
           <caret line="61" column="64" selection-start-line="61" selection-start-column="64" selection-end-line="61" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/controller/CandidatController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-748">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -811,13 +721,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/competenta/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="20" column="67" selection-start-line="20" selection-start-column="67" selection-end-line="20" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/competenta/view.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -913,6 +816,97 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="676">
           <caret line="61" column="31" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/controller/FunctieController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/service/FunctieService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/service/FunctieServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/repository/FunctieRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/controller/CandidatController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.2.RELEASE/spring-core-5.1.2.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="102" selection-start-line="102" selection-end-line="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.2.RELEASE/spring-aop-5.1.2.RELEASE.jar!/org/springframework/aop/framework/CglibAopProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="473" selection-start-line="473" selection-end-line="473" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.2.RELEASE/spring-aop-5.1.2.RELEASE.jar!/org/springframework/aop/framework/ReflectiveMethodInvocation.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/repository/CompetentaRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="59" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/service/CompetentaServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/service/CompetentaService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/controller/CompetentaController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/competenta/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="102" column="30" selection-start-line="102" selection-start-column="30" selection-end-line="102" selection-end-column="30" />
         </state>
       </provider>
     </entry>
