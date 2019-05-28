@@ -19,3 +19,7 @@ insert into EVALUARE(ID, DESCRIERE, CANDIDAT_ID, RESPONSABIL_ID) values ('1', 'C
 insert into ROLE(id, name) values ('1', 'ROLE_ADMIN');
 insert into ROLE(id, name) values ('2', 'ROLE_CANDIDAT');
 insert into ROLE(id, name) values ('3', 'ROLE_HR');
+
+insert into UTILIZATOR(id, username, parola, angajat_id) values ('1', 'admin', '$2a$10$0qFOkp.bzguq6i7fQZ3S3Oli8cPIh5pVbL/5QctTbuRR3yzgQQOy2', '1');
+
+insert into UTILIZATORI_ROLES(utilizator_id, role_id) values ('1', '1');

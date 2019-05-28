@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b08abed2-62c3-403c-bb9f-fe2777aa9f84" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/controller/CompetentaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/controller/CompetentaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/repository/CompetentaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/repository/CompetentaRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/service/CompetentaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/service/CompetentaService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/service/CompetentaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/service/CompetentaServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/competenta/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/competenta/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/apbdoo/hrm/controller/CandidatController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/apbdoo/hrm/controller/CandidatController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/apbdoo/hrm/controller/CompetentaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/apbdoo/hrm/controller/CompetentaController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/apbdoo/hrm/repository/CompetentaRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/apbdoo/hrm/repository/CompetentaRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/apbdoo/hrm/service/CompetentaService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/apbdoo/hrm/service/CompetentaService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/apbdoo/hrm/service/CompetentaServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/apbdoo/hrm/service/CompetentaServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,26 +16,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/controller/CompetentaController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/competenta/list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="102" column="30" selection-start-line="102" selection-start-column="30" selection-end-line="102" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -94,7 +65,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/controller/MainController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/hello.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/service/UtilizatorServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/data.sql" />
         <option value="$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/repository/RoleRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/service/RoleService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/controller/UtilizatorController.java" />
@@ -133,6 +103,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/service/CompetentaServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/apbdoo/hrm/service/CompetentaService.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/competenta/list.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/data.sql" />
       </list>
     </option>
   </component>
@@ -178,7 +149,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -212,65 +183,11 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="hrm" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="HRManagement" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HRManagement" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HRManagement" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HRManagement" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HRManagement" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HRManagement" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HRManagement" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HRManagement" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="competenta" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HRManagement" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HRManagement" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HRManagement" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HRManagement" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HRManagement" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HRManagement" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -462,6 +379,7 @@
       <workItem from="1558592893421" duration="2000" />
       <workItem from="1558876254633" duration="11804000" />
       <workItem from="1558986940126" duration="1403000" />
+      <workItem from="1559063986824" duration="397000" />
     </task>
     <servers />
   </component>
@@ -498,13 +416,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90763000" />
+    <option name="totallyTimeSpent" value="91160000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31467474" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3192133" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -550,13 +467,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/data.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -907,6 +817,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="328">
           <caret line="102" column="30" selection-start-line="102" selection-start-column="30" selection-end-line="102" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/data.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
         </state>
       </provider>
     </entry>
